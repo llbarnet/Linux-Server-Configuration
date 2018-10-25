@@ -23,10 +23,10 @@
 6. Configure postgresql to create a database on the server. 
 
 ## Troubleshooting
-Always start with the apache error log as a guide in troubleshooting `$ sudo cat /var/log/apache2/error.log`
-Make sure after any changes to your application on the server you restart apache2 `$ sudo service apache2 restart`
-Make sure all modules and packages have been installed properly with `$ sudo apt-get install []` or `$ pip install [package]`
-Be sure to check your __init__.py file for the correct database location you created with postgres and if you are initiating a database with a different .py file, be sure to check the location of that database being created. 
+- Always start with the apache error log as a guide in troubleshooting `$ sudo cat /var/log/apache2/error.log`
+- Make sure after any changes to your application on the server you restart apache2 `$ sudo service apache2 restart`
+- Make sure all modules and packages have been installed properly with `$ sudo apt-get install []` or `$ pip install [package]`
+- Be sure to check your __init__.py file for the correct database location you created with postgres and if you are initiating a database with a different .py file, be sure to check the location of that database being created. 
 
 For Oauth respectively
   - make sure all instances of the new IP address and URL have been changed in the client_secrets file and the developers console.
